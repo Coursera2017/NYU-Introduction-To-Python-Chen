@@ -1,5 +1,6 @@
-area_code = "207"
-phone = "2133753"
-my_phone = 'my phone number is {}{}.'.format(area_code, phone)
+phone = "(207)213-3753"
+my_phone = 'my phone number is {}.'.format(phone)
 print(my_phone)
-phone[0:2]
+area_code = phone[1:4]
+my_area_code =  'my phone number is {}.'.format(area_code)
+print(my_area_code)
